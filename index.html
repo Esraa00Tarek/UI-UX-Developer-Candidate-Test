@@ -42,31 +42,29 @@
                 </div>
             </div>
         </div>
-  <!-- Main Header -->
-  <div class="main-header">
-    <div class="container header-container">
-        <a href="#" class="main-header__logo">iHerb<sup>®</sup></a>
 
-        <div class="main-header__search">
-            <input type="text" class="search-form__input" placeholder="Search all of iHerb">
-            <button class="search-form__button" aria-label="Search">
-                <i class="fas fa-search"></i>
-            </button>
+        <!-- Main Header -->
+        <div class="main-header">
+            <div class="container header-container">
+                <a href="#" class="main-header__logo">iHerb<sup>®</sup></a>
+                <div class="main-header__search">
+                    <input type="text" class="search-form__input" placeholder="Search all of iHerb">
+                    <button class="search-form__button" aria-label="Search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <div class="main-header__actions">
+                    <button class="main-header__action main-header__action--signin">
+                        <i class="fas fa-user"></i>
+                        <span class="main-header__action-text">Sign in</span>
+                    </button>
+                    <button class="main-header__action main-header__action--cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <div class="cart-badge">0</div>
+                    </button>
+                </div>
+            </div>
         </div>
-
-        <div class="main-header__actions">
-            <button class="main-header__action main-header__action--signin">
-                <i class="fas fa-user"></i>
-                <span class="main-header__action-text">Sign in</span>
-            </button>
-
-            <button class="main-header__action main-header__action--cart">
-                <i class="fas fa-shopping-cart"></i>
-                <div class="cart-badge">0</div>
-            </button>
-        </div>
-    </div>
-</div>
 
         <!-- Navigation -->
         <nav class="main-nav">
@@ -117,29 +115,27 @@
             <button class="slider-arrow slider-arrow--next"><i class="fas fa-chevron-right"></i></button>
 
             <div class="hero-tabs-container">
-                <div class="container">
-                    <div class="hero-tabs">
-                        <div class="hero-tab active" data-slide="0">
-                            <span>Fish Oil & Omegas</span>
-                            <span class="hero-tab__sub">25% OFF</span>
-                        </div>
-                        <div class="hero-tab" data-slide="1">
-                            <span>Best Season Ever</span>
-                            <span class="hero-tab__sub">UP TO 20% OFF</span>
-                        </div>
-                        <div class="hero-tab" data-slide="2">
-                            <span>Wellness Experts</span>
-                            <span class="hero-tab__sub">LEARN MORE</span>
-                        </div>
-                        <div class="hero-tab" data-slide="3">
-                            <span>Omega-3 Supplements</span>
-                            <span class="hero-tab__sub">LEARN MORE</span>
-                        </div>
-                        <a href="#" class="hero-tab hero-tab--see-all">
-                            <span>SEE ALL</span>
-                            <i class="fas fa-chevron-right"></i>
-                        </a>
+                <div class="hero-tabs">
+                    <div class="hero-tab active" data-slide="0">
+                        <span>Fish Oil & Omegas</span>
+                        <span class="hero-tab__sub">25% OFF</span>
                     </div>
+                    <div class="hero-tab" data-slide="1">
+                        <span>Best Season Ever</span>
+                        <span class="hero-tab__sub">UP TO 20% OFF</span>
+                    </div>
+                    <div class="hero-tab" data-slide="2">
+                        <span>Wellness Experts</span>
+                        <span class="hero-tab__sub">LEARN MORE</span>
+                    </div>
+                    <div class="hero-tab" data-slide="3">
+                        <span>Omega-3 Supplements</span>
+                        <span class="hero-tab__sub">LEARN MORE</span>
+                    </div>
+                    <a href="#" class="hero-tab hero-tab--see-all">
+                        <span>SEE ALL</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
                 </div>
             </div>
         </section>
@@ -151,7 +147,7 @@
                 </div>
                 
                 <div class="product-scroll-container">
-                    <div class="product-row">
+                    <div class="product-row" id="recommended-products">
                         <div class="product-item">
                             <div class="product-card">
                                 <button class="add-to-cart-btn">Add to cart</button>
@@ -237,89 +233,91 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Duplicate items for infinite loop -->
+                        <!-- Additional products for better scrolling -->
                         <div class="product-item">
                             <div class="product-card">
                                 <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product1.png" alt="Mild By Nature, Witch Hazel" class="img-fluid">
-                                <h3 class="product-name">Mild By Nature, Witch Hazel, Alcohol-Free, Unscented, 12 fl oz (355 ml)</h3>
+                                <img src="images/product6.png" alt="California Gold Nutrition, Vitamin D3" class="img-fluid">
+                                <h3 class="product-name">California Gold Nutrition, Vitamin D3, 2000 IU, 90 Fish Gelatin Softgels</h3>
                                 <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">8,673</span>
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span class="rating-count">25,432</span>
                                 </div>
                                 <div class="product-price">
-                                    <span class="current-price">EGP412.87</span>
-                                    <span class="original-price">EGP550.50</span>
+                                    <span class="current-price">EGP324.75</span>
+                                    <span class="original-price">EGP398.50</span>
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="product-card">
                                 <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product2.png" alt="Axis-Y, Dark Spot Correcting Glow Serum" class="img-fluid">
-                                <h3 class="product-name">Axis-Y, Dark Spot Correcting Glow Serum, 1.69 fl oz (50 ml)</h3>
+                                <img src="images/product7.jpg" alt="Doctor's Best, Magnesium" class="img-fluid">
+                                <h3 class="product-name">Doctor's Best, High Absorption Magnesium, 100 mg, 120 Tablets</h3>
                                 <div class="product-rating">
                                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">11,267</span>
+                                    <span class="rating-count">18,976</span>
                                 </div>
                                 <div class="product-price">
-                                    <span class="current-price">EGP969.36</span>
+                                    <span class="current-price">EGP567.89</span>
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="product-card">
                                 <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product3.jpg" alt="Act, Anticavity Fluoride Mouthwash" class="img-fluid">
-                                <h3 class="product-name">Act, Anticavity Fluoride Mouthwash, Alcohol Free, Mint, 18 fl oz (532 ml)</h3>
+                                <img src="images/product8.png" alt="Nature's Way, Zinc" class="img-fluid">
+                                <h3 class="product-name">Nature's Way, Zinc Chelate, 30 mg, 100 Capsules</h3>
                                 <div class="product-rating">
                                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
-                                    <span class="rating-count">736</span>
+                                    <span class="rating-count">12,543</span>
                                 </div>
                                 <div class="product-price">
-                                    <span class="current-price">EGP541.46</span>
+                                    <span class="current-price">EGP289.45</span>
+                                    <span class="original-price">EGP345.60</span>
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="product-card">
                                 <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product4.png" alt="Avalon Organics, Thickening Shampoo" class="img-fluid">
-                                <h3 class="product-name">Avalon Organics, Thickening Shampoo, Biotin B-Complex, 14 fl oz</h3>
+                                <img src="images/product1.png" alt="Solgar, B-Complex" class="img-fluid">
+                                <h3 class="product-name">Solgar, B-Complex "50", 100 Vegetable Capsules</h3>
                                 <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
-                                    <span class="rating-count">61,215</span>
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span class="rating-count">9,876</span>
                                 </div>
                                 <div class="product-price">
-                                    <span class="current-price">EGP715.18</span>
+                                    <span class="current-price">EGP678.90</span>
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="product-card">
                                 <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product5.png" alt="21st Century, Potassium Gluconate" class="img-fluid">
-                                <h3 class="product-name">21st Century, Potassium Gluconate, 595 mg, 110 Tablets</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
-                                    <span class="rating-count">17,023</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP188.94</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/last1.png" alt="NOW Foods, C-1000" class="img-fluid">
-                                <h3 class="product-name">NOW Foods, C-1000, With Rose Hips and Bioflavonoids, 100 Tablets</h3>
+                                <img src="images/product2.png" alt="Jarrow Formulas, Probiotics" class="img-fluid">
+                                <h3 class="product-name">Jarrow Formulas, Jarro-Dophilus EPS, 25 Billion, 30 Veggie Caps</h3>
                                 <div class="product-rating">
                                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">5,755</span>
+                                    <span class="rating-count">15,234</span>
                                 </div>
                                 <div class="product-price">
-                                    <span class="current-price">EGP536.51</span>
+                                    <span class="current-price">EGP890.75</span>
+                                    <span class="original-price">EGP1,045.80</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-card">
+                                <button class="add-to-cart-btn">Add to cart</button>
+                                <img src="images/product3.jpg" alt="Life Extension, Curcumin" class="img-fluid">
+                                <h3 class="product-name">Life Extension, Super Bio-Curcumin, 400 mg, 60 Vegetarian Capsules</h3>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                    <span class="rating-count">7,654</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="current-price">EGP1,234.56</span>
                                 </div>
                             </div>
                         </div>
@@ -334,15 +332,16 @@
             </div>
         </section>
 
+        <div class="white-gap"></div>
+
         <section class="specials-section py-5 bg-white position-relative">
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <h2 class="section-title mb-0">Specials picked for you</h2>
-                    <a href="#" class="view-all-btn">View all</a>
-                </div>
-                
+                    <a href="#" class="btn btn-success view-all-btn">View all</a>
+                </div>                
                 <div class="product-scroll-container">
-                    <div class="product-row">
+                    <div class="product-row" id="specials-products">
                         <div class="product-item">
                             <div class="product-card">
                                 <button class="add-to-cart-btn">Add to cart</button>
@@ -391,585 +390,135 @@
                         <div class="product-item">
                             <div class="product-card">
                                 <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product6.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 100 Fish Gelatin</h3>
+                                <img src="images/product1.png" alt="NOW Foods, Vitamin D3" class="img-fluid">
+                                <h3 class="product-name">NOW Foods, Vitamin D3, 5000 IU, 120 Softgels</h3>
                                 <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,214</span>
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span class="rating-count">28,543</span>
                                 </div>
                                 <div class="product-price">
-                                    <span class="current-price">EGP591.06</span>
-                                    <span class="original-price">EGP695.37</span>
+                                    <span class="current-price">EGP456.78</span>
+                                    <span class="original-price">EGP567.89</span>
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="product-card">
                                 <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product7.jpg" alt="California Gold Nutrition, Gold C" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Gold C™, USP Grade Vitamin C, 1,000 mg, 240</h3>
+                                <img src="images/product2.png" alt="Solgar, Magnesium Citrate" class="img-fluid">
+                                <h3 class="product-name">Solgar, Magnesium Citrate, 200 mg, 60 Tablets</h3>
                                 <div class="product-rating">
                                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">352,215</span>
+                                    <span class="rating-count">19,876</span>
                                 </div>
                                 <div class="product-price">
-                                    <span class="current-price">EGP747.30</span>
-                                    <span class="original-price">EGP879.18</span>
+                                    <span class="current-price">EGP623.45</span>
+                                    <span class="original-price">EGP734.56</span>
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="product-card">
                                 <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product8.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 240 Fish Gelatin</h3>
+                                <img src="images/product3.jpg" alt="Nature's Way, Zinc Lozenges" class="img-fluid">
+                                <h3 class="product-name">Nature's Way, Zinc Lozenges, Wild Berry, 60 Lozenges</h3>
                                 <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,217</span>
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                    <span class="rating-count">14,321</span>
                                 </div>
                                 <div class="product-price">
-                                    <span class="current-price">EGP1,289.64</span>
-                                    <span class="original-price">EGP1,517.22</span>
+                                    <span class="current-price">EGP345.67</span>
+                                    <span class="original-price">EGP423.89</span>
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="product-card">
                                 <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product6.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 100 Fish Gelatin</h3>
+                                <img src="images/product4.png" alt="Doctor's Best, CoQ10" class="img-fluid">
+                                <h3 class="product-name">Doctor's Best, High Absorption CoQ10, 100 mg, 120 Softgels</h3>
                                 <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,214</span>
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span class="rating-count">22,654</span>
                                 </div>
                                 <div class="product-price">
-                                    <span class="current-price">EGP591.06</span>
-                                    <span class="original-price">EGP695.37</span>
+                                    <span class="current-price">EGP789.12</span>
+                                    <span class="original-price">EGP923.45</span>
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="product-card">
                                 <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product7.jpg" alt="California Gold Nutrition, Gold C" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Gold C™, USP Grade Vitamin C, 1,000 mg, 240</h3>
+                                <img src="images/product5.png" alt="Jarrow Formulas, Ashwagandha" class="img-fluid">
+                                <h3 class="product-name">Jarrow Formulas, Ashwagandha, 300 mg, 120 Veggie Caps</h3>
                                 <div class="product-rating">
                                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">352,215</span>
+                                    <span class="rating-count">16,789</span>
                                 </div>
                                 <div class="product-price">
-                                    <span class="current-price">EGP747.30</span>
-                                    <span class="original-price">EGP879.18</span>
+                                    <span class="current-price">EGP567.89</span>
+                                    <span class="original-price">EGP678.90</span>
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="product-card">
                                 <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product8.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 240 Fish Gelatin</h3>
+                                <img src="images/product6.png" alt="Life Extension, Melatonin" class="img-fluid">
+                                <h3 class="product-name">Life Extension, Melatonin, 3 mg, 60 Vegetarian Capsules</h3>
                                 <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,217</span>
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                    <span class="rating-count">13,456</span>
                                 </div>
                                 <div class="product-price">
-                                    <span class="current-price">EGP1,289.64</span>
-                                    <span class="original-price">EGP1,517.22</span>
+                                    <span class="current-price">EGP234.56</span>
+                                    <span class="original-price">EGP289.78</span>
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="product-card">
                                 <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product6.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 100 Fish Gelatin</h3>
+                                <img src="images/product7.jpg" alt="Source Naturals, Alpha Lipoic Acid" class="img-fluid">
+                                <h3 class="product-name">Source Naturals, Alpha Lipoic Acid, 200 mg, 120 Tablets</h3>
                                 <div class="product-rating">
                                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,214</span>
+                                    <span class="rating-count">11,234</span>
                                 </div>
                                 <div class="product-price">
-                                    <span class="current-price">EGP591.06</span>
-                                    <span class="original-price">EGP695.37</span>
+                                    <span class="current-price">EGP456.78</span>
+                                    <span class="original-price">EGP534.90</span>
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="product-card">
                                 <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product7.jpg" alt="California Gold Nutrition, Gold C" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Gold C™, USP Grade Vitamin C, 1,000 mg, 240</h3>
+                                <img src="images/product8.png" alt="Country Life, Iron" class="img-fluid">
+                                <h3 class="product-name">Country Life, Iron, 25 mg, 90 Vegetarian Capsules</h3>
                                 <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">352,215</span>
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                    <span class="rating-count">8,765</span>
                                 </div>
                                 <div class="product-price">
-                                    <span class="current-price">EGP747.30</span>
-                                    <span class="original-price">EGP879.18</span>
+                                    <span class="current-price">EGP345.67</span>
+                                    <span class="original-price">EGP412.34</span>
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="product-card">
                                 <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product8.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 240 Fish Gelatin</h3>
+                                <img src="images/last1.png" alt="Bluebonnet Nutrition, Calcium" class="img-fluid">
+                                <h3 class="product-name">Bluebonnet Nutrition, Calcium Citrate, 180 Caplets</h3>
                                 <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,217</span>
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span class="rating-count">20,543</span>
                                 </div>
                                 <div class="product-price">
-                                    <span class="current-price">EGP1,289.64</span>
-                                    <span class="original-price">EGP1,517.22</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product6.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 100 Fish Gelatin</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,214</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP591.06</span>
-                                    <span class="original-price">EGP695.37</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product7.jpg" alt="California Gold Nutrition, Gold C" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Gold C™, USP Grade Vitamin C, 1,000 mg, 240</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">352,215</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP747.30</span>
-                                    <span class="original-price">EGP879.18</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product8.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 240 Fish Gelatin</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,217</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP1,289.64</span>
-                                    <span class="original-price">EGP1,517.22</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product6.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 100 Fish Gelatin</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,214</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP591.06</span>
-                                    <span class="original-price">EGP695.37</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product7.jpg" alt="California Gold Nutrition, Gold C" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Gold C™, USP Grade Vitamin C, 1,000 mg, 240</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">352,215</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP747.30</span>
-                                    <span class="original-price">EGP879.18</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product8.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 240 Fish Gelatin</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,217</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP1,289.64</span>
-                                    <span class="original-price">EGP1,517.22</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product6.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 100 Fish Gelatin</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,214</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP591.06</span>
-                                    <span class="original-price">EGP695.37</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product7.jpg" alt="California Gold Nutrition, Gold C" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Gold C™, USP Grade Vitamin C, 1,000 mg, 240</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">352,215</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP747.30</span>
-                                    <span class="original-price">EGP879.18</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product8.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 240 Fish Gelatin</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,217</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP1,289.64</span>
-                                    <span class="original-price">EGP1,517.22</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product6.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 100 Fish Gelatin</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,214</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP591.06</span>
-                                    <span class="original-price">EGP695.37</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product7.jpg" alt="California Gold Nutrition, Gold C" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Gold C™, USP Grade Vitamin C, 1,000 mg, 240</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">352,215</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP747.30</span>
-                                    <span class="original-price">EGP879.18</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product8.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 240 Fish Gelatin</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,217</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP1,289.64</span>
-                                    <span class="original-price">EGP1,517.22</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product6.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 100 Fish Gelatin</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,214</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP591.06</span>
-                                    <span class="original-price">EGP695.37</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product7.jpg" alt="California Gold Nutrition, Gold C" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Gold C™, USP Grade Vitamin C, 1,000 mg, 240</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">352,215</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP747.30</span>
-                                    <span class="original-price">EGP879.18</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product8.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 240 Fish Gelatin</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,217</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP1,289.64</span>
-                                    <span class="original-price">EGP1,517.22</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product6.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 100 Fish Gelatin</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,214</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP591.06</span>
-                                    <span class="original-price">EGP695.37</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product7.jpg" alt="California Gold Nutrition, Gold C" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Gold C™, USP Grade Vitamin C, 1,000 mg, 240</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">352,215</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP747.30</span>
-                                    <span class="original-price">EGP879.18</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product8.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 240 Fish Gelatin</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,217</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP1,289.64</span>
-                                    <span class="original-price">EGP1,517.22</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product6.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 100 Fish Gelatin</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,214</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP591.06</span>
-                                    <span class="original-price">EGP695.37</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product7.jpg" alt="California Gold Nutrition, Gold C" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Gold C™, USP Grade Vitamin C, 1,000 mg, 240</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">352,215</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP747.30</span>
-                                    <span class="original-price">EGP879.18</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product8.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 240 Fish Gelatin</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,217</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP1,289.64</span>
-                                    <span class="original-price">EGP1,517.22</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product6.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 100 Fish Gelatin</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,214</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP591.06</span>
-                                    <span class="original-price">EGP695.37</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product7.jpg" alt="California Gold Nutrition, Gold C" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Gold C™, USP Grade Vitamin C, 1,000 mg, 240</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">352,215</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP747.30</span>
-                                    <span class="original-price">EGP879.18</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product8.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 240 Fish Gelatin</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,217</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP1,289.64</span>
-                                    <span class="original-price">EGP1,517.22</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product6.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 100 Fish Gelatin</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,214</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP591.06</span>
-                                    <span class="original-price">EGP695.37</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product7.jpg" alt="California Gold Nutrition, Gold C" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Gold C™, USP Grade Vitamin C, 1,000 mg, 240</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">352,215</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP747.30</span>
-                                    <span class="original-price">EGP879.18</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product8.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 240 Fish Gelatin</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,217</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP1,289.64</span>
-                                    <span class="original-price">EGP1,517.22</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product6.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 100 Fish Gelatin</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,214</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP591.06</span>
-                                    <span class="original-price">EGP695.37</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product7.jpg" alt="California Gold Nutrition, Gold C" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Gold C™, USP Grade Vitamin C, 1,000 mg, 240</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">352,215</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP747.30</span>
-                                    <span class="original-price">EGP879.18</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-card">
-                                <button class="add-to-cart-btn">Add to cart</button>
-                                <img src="images/product8.png" alt="California Gold Nutrition, Omega-3" class="img-fluid">
-                                <h3 class="product-name">California Gold Nutrition, Omega-3 Premium Fish Oil, 240 Fish Gelatin</h3>
-                                <div class="product-rating">
-                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-count">445,217</span>
-                                </div>
-                                <div class="product-price">
-                                    <span class="current-price">EGP1,289.64</span>
-                                    <span class="original-price">EGP1,517.22</span>
+                                    <span class="current-price">EGP678.90</span>
+                                    <span class="original-price">EGP789.12</span>
                                 </div>
                             </div>
                         </div>
@@ -983,63 +532,56 @@
                 </button>
             </div>
         </section>
-              <section class="shop-category-section py-5">
+
+        <section class="shop-category-section py-5">
             <div class="container">
                 <h2 class="section-title mb-4">Shop by category</h2>
                 <div class="d-flex justify-content-center flex-wrap gap-4">
                     <div class="category-item text-center">
                         <div class="category-icon">
-                            <!-- Supplements SVG -->
-                            <svg width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="32" fill="#f6f6f6"/><g stroke="#228B22" stroke-width="2"><rect x="20" y="24" width="24" height="28" rx="4"/><rect x="28" y="16" width="8" height="8" rx="2"/><rect x="24" y="36" width="16" height="8" rx="2"/></g></svg>
+                            <img src="images/shop/Supplements.png" alt="Supplements" width="64" height="64" style="background:#f6f6f6; border-radius:50%; object-fit:contain;" />
                         </div>
                         <div>Supplements</div>
                     </div>
                     <div class="category-item text-center">
                         <div class="category-icon">
-                            <!-- Sports SVG -->
-                            <svg width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="32" fill="#f6f6f6"/><g stroke="#228B22" stroke-width="2"><ellipse cx="32" cy="40" rx="14" ry="8"/><rect x="28" y="24" width="8" height="16" rx="4"/><rect x="30" y="16" width="4" height="8" rx="2"/></g></svg>
+                            <img src="images/shop/Sports.png" alt="Sports" width="64" height="64" style="background:#f6f6f6; border-radius:50%; object-fit:contain;" />
                         </div>
                         <div>Sports</div>
                     </div>
                     <div class="category-item text-center">
                         <div class="category-icon">
-                            <!-- Bath & Personal Care SVG -->
-                            <svg width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="32" fill="#f6f6f6"/><g stroke="#228B22" stroke-width="2"><rect x="20" y="36" width="24" height="8" rx="4"/><ellipse cx="32" cy="36" rx="12" ry="6"/><circle cx="32" cy="28" r="6"/></g></svg>
+                            <img src="images/shop/Bath.png" alt="Bath & Personal Care" width="64" height="64" style="background:#f6f6f6; border-radius:50%; object-fit:contain;" />
                         </div>
                         <div>Bath & Personal Care</div>
                     </div>
                     <div class="category-item text-center">
                         <div class="category-icon">
-                            <!-- Beauty SVG -->
-                            <svg width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="32" fill="#f6f6f6"/><g stroke="#228B22" stroke-width="2"><circle cx="32" cy="32" r="10"/><ellipse cx="32" cy="40" rx="6" ry="2"/><path d="M28 28 Q32 24 36 28"/></g></svg>
+                            <img src="images/shop/Beauty.png" alt="Beauty" width="64" height="64" style="background:#f6f6f6; border-radius:50%; object-fit:contain;" />
                         </div>
                         <div>Beauty</div>
                     </div>
                     <div class="category-item text-center">
                         <div class="category-icon">
-                            <!-- Grocery SVG -->
-                            <svg width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="32" fill="#f6f6f6"/><g stroke="#228B22" stroke-width="2"><rect x="24" y="28" width="16" height="16" rx="4"/><rect x="28" y="20" width="8" height="8" rx="2"/><rect x="30" y="36" width="4" height="8" rx="2"/></g></svg>
+                            <img src="images/shop/Grocery.png" alt="Grocery" width="64" height="64" style="background:#f6f6f6; border-radius:50%; object-fit:contain;" />
                         </div>
                         <div>Grocery</div>
                     </div>
                     <div class="category-item text-center">
                         <div class="category-icon">
-                            <!-- Home SVG -->
-                            <svg width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="32" fill="#f6f6f6"/><g stroke="#228B22" stroke-width="2"><rect x="24" y="32" width="16" height="12" rx="2"/><polygon points="32,20 20,32 44,32"/></g></svg>
+                            <img src="images/shop/Home.png" alt="Home" width="64" height="64" style="background:#f6f6f6; border-radius:50%; object-fit:contain;" />
                         </div>
                         <div>Home</div>
                     </div>
                     <div class="category-item text-center">
                         <div class="category-icon">
-                            <!-- Baby & Kids SVG -->
-                            <svg width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="32" fill="#f6f6f6"/><g stroke="#228B22" stroke-width="2"><circle cx="32" cy="36" r="10"/><ellipse cx="32" cy="44" rx="6" ry="2"/><circle cx="28" cy="34" r="1"/><circle cx="36" cy="34" r="1"/></g></svg>
+                            <img src="images/shop/Kids.png" alt="Baby & Kids" width="64" height="64" style="background:#f6f6f6; border-radius:50%; object-fit:contain;" />
                         </div>
                         <div>Baby & Kids</div>
                     </div>
                     <div class="category-item text-center">
                         <div class="category-icon">
-                            <!-- Pets SVG -->
-                            <svg width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="32" fill="#f6f6f6"/><g stroke="#228B22" stroke-width="2"><ellipse cx="32" cy="40" rx="10" ry="6"/><circle cx="28" cy="36" r="2"/><circle cx="36" cy="36" r="2"/><path d="M32 40 Q32 44 36 44"/></g></svg>
+                            <img src="images/shop/Pets.png" alt="Pets" width="64" height="64" style="background:#f6f6f6; border-radius:50%; object-fit:contain;" />
                         </div>
                         <div>Pets</div>
                     </div>
@@ -1052,30 +594,229 @@
                 <div class="d-flex align-items-center">
                     <span class="fw-semibold me-3">Selected for you</span>
                     <div class="selected-scroll flex-grow-1 d-flex overflow-auto">
-                        <button class="selected-btn me-2">Vitamins</button>
-                        <button class="selected-btn me-2">GLP-1 Support</button>
-                        <button class="selected-btn me-2">Immune Support</button>
-                        <button class="selected-btn me-2">Heart</button>
-                        <button class="selected-btn me-2">Herbs</button>
-                        <button class="selected-btn me-2">Bone, Joint & Cartilage</button>
-                        <button class="selected-btn me-2">Minerals</button>
-                        <button class="selected-btn me-2">Digestive Support</button>
+                        <button class="selected-btn">Vitamins</button>
+                        <button class="selected-btn">GLP-1 Support</button>
+                        <button class="selected-btn">Immune Support</button>
+                        <button class="selected-btn">Heart</button>
+                        <button class="selected-btn">Herbs</button>
+                        <button class="selected-btn">Bone, Joint & Cartilage</button>
+                        <button class="selected-btn">Minerals</button>
+                        <button class="selected-btn">Digestive Support</button>
                     </div>
                     <button class="selected-arrow ms-3"><i class="fas fa-chevron-right"></i></button>
                 </div>
             </div>
         </section>
-   <section class="brands-section py-5 bg-white">
+
+        <div class="white-gap"></div>
+
+        <section class="trending-section py-5 position-relative">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h2 class="section-title mb-0">Trending now</h2>
+                </div>
+                <div class="product-scroll-container">
+                    <div class="product-row" id="trending-products">
+                        <div class="product-item">
+                            <div class="product-card">
+                                <button class="add-to-cart-btn">Add to cart</button>
+                                <img src="images/product1.png" alt="Mild By Nature, Witch Hazel" class="img-fluid">
+                                <h3 class="product-name">Mild By Nature, Witch Hazel, Alcohol-Free, Unscented, 12 fl oz (355 ml)</h3>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                    <span class="rating-count">8,673</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="current-price">EGP412.87</span>
+                                    <span class="original-price">EGP550.50</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-card">
+                                <button class="add-to-cart-btn">Add to cart</button>
+                                <img src="images/product2.png" alt="Axis-Y, Dark Spot Correcting Glow Serum" class="img-fluid">
+                                <h3 class="product-name">Axis-Y, Dark Spot Correcting Glow Serum, 1.69 fl oz (50 ml)</h3>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                    <span class="rating-count">11,267</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="current-price">EGP969.36</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-card">
+                                <button class="add-to-cart-btn">Add to cart</button>
+                                <img src="images/product3.jpg" alt="Act, Anticavity Fluoride Mouthwash" class="img-fluid">
+                                <h3 class="product-name">Act, Anticavity Fluoride Mouthwash, Alcohol Free, Mint, 18 fl oz (532 ml)</h3>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                    <span class="rating-count">736</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="current-price">EGP541.46</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-card">
+                                <button class="add-to-cart-btn">Add to cart</button>
+                                <img src="images/product4.png" alt="Avalon Organics, Thickening Shampoo" class="img-fluid">
+                                <h3 class="product-name">Avalon Organics, Thickening Shampoo, Biotin B-Complex, 14 fl oz</h3>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
+                                    <span class="rating-count">61,215</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="current-price">EGP715.18</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-card">
+                                <button class="add-to-cart-btn">Add to cart</button>
+                                <img src="images/product5.png" alt="21st Century, Potassium Gluconate" class="img-fluid">
+                                <h3 class="product-name">21st Century, Potassium Gluconate, 595 mg, 110 Tablets</h3>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                    <span class="rating-count">17,023</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="current-price">EGP188.94</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-card">
+                                <button class="add-to-cart-btn">Add to cart</button>
+                                <img src="images/last1.png" alt="NOW Foods, C-1000" class="img-fluid">
+                                <h3 class="product-name">NOW Foods, C-1000, With Rose Hips and Bioflavonoids, 100 Tablets</h3>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                    <span class="rating-count">5,755</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="current-price">EGP536.51</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Additional trending products -->
+                        <div class="product-item">
+                            <div class="product-card">
+                                <button class="add-to-cart-btn">Add to cart</button>
+                                <img src="images/product6.png" alt="Turmeric Curcumin" class="img-fluid">
+                                <h3 class="product-name">Nature's Way, Turmeric, 500 mg, 60 Vegetarian Capsules</h3>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span class="rating-count">12,456</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="current-price">EGP423.78</span>
+                                    <span class="original-price">EGP512.90</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-card">
+                                <button class="add-to-cart-btn">Add to cart</button>
+                                <img src="images/product7.jpg" alt="Elderberry Gummies" class="img-fluid">
+                                <h3 class="product-name">Sambucus, Elderberry Gummies, Natural Berry Flavor, 60 Gummies</h3>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                    <span class="rating-count">18,234</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="current-price">EGP567.89</span>
+                                    <span class="original-price">EGP678.90</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-card">
+                                <button class="add-to-cart-btn">Add to cart</button>
+                                <img src="images/product8.png" alt="Apple Cider Vinegar" class="img-fluid">
+                                <h3 class="product-name">Bragg, Organic Apple Cider Vinegar, 16 fl oz (473 ml)</h3>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                    <span class="rating-count">9,876</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="current-price">EGP345.67</span>
+                                    <span class="original-price">EGP423.45</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-card">
+                                <button class="add-to-cart-btn">Add to cart</button>
+                                <img src="images/product1.png" alt="Collagen Peptides" class="img-fluid">
+                                <h3 class="product-name">Vital Proteins, Collagen Peptides, Unflavored, 20 oz (567 g)</h3>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span class="rating-count">25,432</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="current-price">EGP1,234.56</span>
+                                    <span class="original-price">EGP1,456.78</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-card">
+                                <button class="add-to-cart-btn">Add to cart</button>
+                                <img src="images/product2.png" alt="MCT Oil" class="img-fluid">
+                                <h3 class="product-name">Sports Research, MCT Oil, Unflavored, 32 fl oz (946 ml)</h3>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                    <span class="rating-count">14,567</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="current-price">EGP789.12</span>
+                                    <span class="original-price">EGP923.45</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-card">
+                                <button class="add-to-cart-btn">Add to cart</button>
+                                <img src="images/product3.jpg" alt="Rhodiola Rosea" class="img-fluid">
+                                <h3 class="product-name">Gaia Herbs, Rhodiola Rosea, 60 Vegan Liquid Phyto-Caps</h3>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                    <span class="rating-count">7,890</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="current-price">EGP678.90</span>
+                                    <span class="original-price">EGP789.12</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="scroll-btn scroll-btn-prev" data-target="trending">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="scroll-btn scroll-btn-next" data-target="trending">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+
+        <div class="white-gap"></div>
+
+        <section class="brands-section py-5 bg-white">
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <div>
-                        <h2 class="section-title mb-1">Specials picked for you</h2>
+                        <h2 class="section-title mb-1">Brands of the Week</h2>
                         <p class="text-secondary mb-0" id="offer-countdown">Offer ends in 6 days, 13 hours</p>
                     </div>
-                    <a href="#" class="btn btn-success">View all</a>
+                    <a href="#" class="btn btn-success view-all-btn">View all</a>
                 </div>
                 <div class="position-relative">
-                    <div class="brands-scroll-container">
+                    <div class="brands-scroll-container" id="brands-container">
                         <div class="brands-row">
                             <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/05e22f32c9f232cf009028d6758b9e455eb24c25.png" alt="Brand 1"></a></div></div>
                             <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/07a5effc310c677af6e6fc3623dc1d99c05b8662.png" alt="Brand 2"></a></div></div>
@@ -1083,22 +824,18 @@
                             <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/5b1deec8766d8cec4fdd2593380885aa3837a034.png" alt="Brand 4"></a></div></div>
                             <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/82c345de72b13df84bdf813199d1138ff9703f96.png" alt="Brand 5"></a></div></div>
                             <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/acd5b2ddc41a95e8b688a420aa0686b32e14c72a.png" alt="Brand 6"></a></div></div>
-                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/05e22f32c9f232cf009028d6758b9e455eb24c25.png" alt="Brand 7"></a></div></div>
-                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/5b1deec8766d8cec4fdd2593380885aa3837a034.png" alt="Brand 8"></a></div></div>
-                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/dc36cf3beba9107eb81e2bcd31c32bf486557ac9.png" alt="Brand 9"></a></div></div>
-                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/589589e9a361c3c4b5b17da80d96359293835817.png" alt="Brand 10"></a></div></div>
-                            <!-- Duplicates for seamless loop -->
-                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/05e22f32c9f232cf009028d6758b9e455eb24c25.png" alt="Brand 1"></a></div></div>
-                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/07a5effc310c677af6e6fc3623dc1d99c05b8662.png" alt="Brand 2"></a></div></div>
-                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/27aa8b21196116c1acfe49baaa12b376660eda3c.png" alt="Brand 3"></a></div></div>
-                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/5b1deec8766d8cec4fdd2593380885aa3837a034.png" alt="Brand 4"></a></div></div>
-                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/82c345de72b13df84bdf813199d1138ff9703f96.png" alt="Brand 5"></a></div></div>
-                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/acd5b2ddc41a95e8b688a420aa0686b32e14c72a.png" alt="Brand 6"></a></div></div>
-                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/05e22f32c9f232cf009028d6758b9e455eb24c25.png" alt="Brand 7"></a></div></div>
-                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/5b1deec8766d8cec4fdd2593380885aa3837a034.png" alt="Brand 8"></a></div></div>
-                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/dc36cf3beba9107eb81e2bcd31c32bf486557ac9.png" alt="Brand 9"></a></div></div>
-                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/589589e9a361c3c4b5b17da80d96359293835817.png" alt="Brand 10"></a></div></div>
-                            </div>
+                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/dc36cf3beba9107eb81e2bcd31c32bf486557ac9.png" alt="Brand 7"></a></div></div>
+                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/589589e9a361c3c4b5b17da80d96359293835817.png" alt="Brand 8"></a></div></div>
+                            <!-- Additional brand items for better scrolling -->
+                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/05e22f32c9f232cf009028d6758b9e455eb24c25.png" alt="Brand 9"></a></div></div>
+                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/07a5effc310c677af6e6fc3623dc1d99c05b8662.png" alt="Brand 10"></a></div></div>
+                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/27aa8b21196116c1acfe49baaa12b376660eda3c.png" alt="Brand 11"></a></div></div>
+                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/5b1deec8766d8cec4fdd2593380885aa3837a034.png" alt="Brand 12"></a></div></div>
+                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/82c345de72b13df84bdf813199d1138ff9703f96.png" alt="Brand 13"></a></div></div>
+                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/acd5b2ddc41a95e8b688a420aa0686b32e14c72a.png" alt="Brand 14"></a></div></div>
+                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/dc36cf3beba9107eb81e2bcd31c32bf486557ac9.png" alt="Brand 15"></a></div></div>
+                            <div class="brand-item-wrapper"><div class="brand-item"><a href="#"><img src="./images/pics/589589e9a361c3c4b5b17da80d96359293835817.png" alt="Brand 16"></a></div></div>
+                        </div>
                     </div>
                     <button class="scroll-btn scroll-btn-prev" data-target="brands">
                         <i class="fas fa-chevron-left"></i>
@@ -1109,141 +846,332 @@
                 </div>
             </div>
         </section>
+
         <section class="bestsellers-section py-5 bg-light">
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center mb-4">
                     <h2 class="section-title mb-0">Best sellers</h2>
-                    <a href="#" class="btn btn-success">View all</a>
+                    <a href="#" class="btn btn-success view-all-btn">View all</a>
                 </div>
                 <div class="d-flex justify-content-start align-items-center mb-4">
                     <ul class="nav nav-pills">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Supplements</a>
+                            <a class="nav-link active" href="#supplements-tab">Supplements</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Bath & Personal Care</a>
+                            <a class="nav-link" href="#bath-tab">Bath & Personal Care</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Beauty</a>
+                            <a class="nav-link" href="#beauty-tab">Beauty</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sports</a>
+                            <a class="nav-link" href="#sports-tab">Sports</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Grocery</a>
+                            <a class="nav-link" href="#grocery-tab">Grocery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Kids & Babies</a>
+                            <a class="nav-link" href="#kids-tab">Kids & Babies</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pets</a>
+                            <a class="nav-link" href="#pets-tab">Pets</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#home-tab">Home</a>
                         </li>
                     </ul>
                 </div>
-                <div class="row">
-                    <!-- Product 1 -->
-                    <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                        <div class="product-card-static">
-                            <img src="images/product1.png" alt="LactoBif 30 Probiotics" class="img-fluid mb-3">
-                            <h3 class="product-name-static">California Gold Nutrition, LactoBif® 30 Probiotics, 30 Billion CFU, 60 Veggie...</h3>
-                            <div class="product-rating-static">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                                <span class="rating-count-static">(143,916)</span>
+                
+                <div class="tab-content">
+                    <div class="tab-pane active show" id="supplements-tab">
+                        <div class="row">
+                     
+                            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                                <div class="product-card-static">
+                                    <img src="./images/New Arrival/product 1.png" alt="Gold C, USP Grade Vitamin C" class="img-fluid mb-3">
+                                    <h3 class="product-name-static">California Gold Nutrition, Gold C™, USP Grade Vitamin C, 1,000 mg, 60...</h3>
+                                    <div class="product-rating-static">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <span class="rating-count-static">(352,215)</span>
+                                    </div>
+                                    <p class="product-price-static">EGP296.12</p>
+                                </div>
                             </div>
-                            <p class="product-price-static">EGP1,202.22</p>
+                  
+                            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                                <div class="product-card-static">
+                                    <img src="images/New Arrival/product 1.png" alt="Zinc Picolinate" class="img-fluid mb-3">
+                                    <h3 class="product-name-static">Thorne, Zinc Picolinate, 15 mg, 60 Capsules</h3>
+                                    <div class="product-rating-static">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <span class="rating-count-static">(34,567)</span>
+                                    </div>
+                                    <p class="product-price-static">EGP345.67</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                                <div class="product-card-static">
+                                    <img src="images/New Arrival/product 2.png" alt="Ashwagandha Extract" class="img-fluid mb-3">
+                                    <h3 class="product-name-static">Jarrow Formulas, Ashwagandha, 300 mg, 120 Veggie Caps</h3>
+                                    <div class="product-rating-static">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <span class="rating-count-static">(23,456)</span>
+                                    </div>
+                                    <p class="product-price-static">EGP567.89</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                                <div class="product-card-static">
+                                    <img src="images/New Arrival/product 3.png" alt="Turmeric Curcumin" class="img-fluid mb-3">
+                                    <h3 class="product-name-static">Life Extension, Super Bio-Curcumin, 400 mg, 60 Vegetarian Capsules</h3>
+                                    <div class="product-rating-static">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <span class="rating-count-static">(45,678)</span>
+                                    </div>
+                                    <p class="product-price-static">EGP789.12</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                                <div class="product-card-static">
+                                    <img src="images/New Arrival/product 4.png" alt="Iron Bisglycinate" class="img-fluid mb-3">
+                                    <h3 class="product-name-static">Thorne, Iron Bisglycinate, 25 mg, 60 Capsules</h3>
+                                    <div class="product-rating-static">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <span class="rating-count-static">(18,765)</span>
+                                    </div>
+                                    <p class="product-price-static">EGP432.10</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                                <div class="product-card-static">
+                                    <img src="images/New Arrival/product 5.png" alt="Melatonin 3mg" class="img-fluid mb-3">
+                                    <h3 class="product-name-static">Life Extension, Melatonin, 3 mg, 60 Vegetarian Capsules</h3>
+                                    <div class="product-rating-static">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <span class="rating-count-static">(29,543)</span>
+                                    </div>
+                                    <p class="product-price-static">EGP234.56</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!-- Product 2 -->
-                    <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                        <div class="product-card-static">
-                            <img src="images/product2.png" alt="Omega-3 Premium Fish Oil" class="img-fluid mb-3">
-                            <h3 class="product-name-static">California Gold Nutrition, Omega-3 Premium Fish Oil, 100 Fish Gelatin</h3>
-                            <div class="product-rating-static">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                                <span class="rating-count-static">(445,214)</span>
+                    
+                    <div class="tab-pane" id="bath-tab">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                                <div class="product-card-static">
+                                    <img src="images/New Arrival/product 6.png" alt="Organic Shampoo" class="img-fluid mb-3">
+                                    <h3 class="product-name-static">Avalon Organics, Thickening Shampoo, Biotin B-Complex, 14 fl oz</h3>
+                                    <div class="product-rating-static">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <span class="rating-count-static">(61,215)</span>
+                                    </div>
+                                    <p class="product-price-static">EGP715.18</p>
+                                </div>
                             </div>
-                            <p class="product-price-static">EGP591.06 <span class="original-price-static">EGP695.37</span></p>
+                            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                                <div class="product-card-static">
+                                    <img src="images/New Arrival/product 7.png" alt="Witch Hazel" class="img-fluid mb-3">
+                                    <h3 class="product-name-static">Mild By Nature, Witch Hazel, Alcohol-Free, Unscented, 12 fl oz</h3>
+                                    <div class="product-rating-static">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <span class="rating-count-static">(8,673)</span>
+                                    </div>
+                                    <p class="product-price-static">EGP412.87</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                                <div class="product-card-static">
+                                    <img src="images/New Arrival/product 8.png" alt="Fluoride Mouthwash" class="img-fluid mb-3">
+                                    <h3 class="product-name-static">Act, Anticavity Fluoride Mouthwash, Alcohol Free, Mint, 18 fl oz</h3>
+                                    <div class="product-rating-static">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <span class="rating-count-static">(736)</span>
+                                    </div>
+                                    <p class="product-price-static">EGP541.46</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                                <div class="product-card-static">
+                                    <img src="images/product8.png" alt="Organic Conditioner" class="img-fluid mb-3">
+                                    <h3 class="product-name-static">Avalon Organics, Thickening Conditioner, Biotin B-Complex, 14 fl oz</h3>
+                                    <div class="product-rating-static">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <span class="rating-count-static">(45,321)</span>
+                                    </div>
+                                    <p class="product-price-static">EGP678.90</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                                <div class="product-card-static">
+                                    <img src="images/New Arrival/product 1.png" alt="Body Wash" class="img-fluid mb-3">
+                                    <h3 class="product-name-static">Everyone, 3-in-1 Soap, Coconut + Lemon, 32 fl oz</h3>
+                                    <div class="product-rating-static">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <span class="rating-count-static">(12,456)</span>
+                                    </div>
+                                    <p class="product-price-static">EGP456.78</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                                <div class="product-card-static">
+                                    <img src="images/New Arrival/product 2.png" alt="Deodorant" class="img-fluid mb-3">
+                                    <h3 class="product-name-static">Schmidt's, Natural Deodorant, Bergamot + Lime, 3.25 oz</h3>
+                                    <div class="product-rating-static">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <span class="rating-count-static">(23,789)</span>
+                                    </div>
+                                    <p class="product-price-static">EGP345.67</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!-- Product 3 -->
-                    <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                        <div class="product-card-static">
-                            <img src="images/product3.jpg" alt="High Absorption Magnesium" class="img-fluid mb-3">
-                            <h3 class="product-name-static">Doctor's Best, High Absorption Magnesium, 240 Tablets (100 mg Per ...</h3>
-                            <div class="product-rating-static">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                                <span class="rating-count-static">(161,162)</span>
+                    
+                    <div class="tab-pane" id="sports-tab">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                                <div class="product-card-static">
+                                    <img src="images/product3.jpg" alt="Whey Protein" class="img-fluid mb-3">
+                                    <h3 class="product-name-static">Optimum Nutrition, Gold Standard 100% Whey, Vanilla Ice Cream, 5 lbs</h3>
+                                    <div class="product-rating-static">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <span class="rating-count-static">(156,789)</span>
+                                    </div>
+                                    <p class="product-price-static">EGP2,345.67</p>
+                                </div>
                             </div>
-                            <p class="product-price-static">EGP1,146.94</p>
-                        </div>
-                    </div>
-                    <!-- Product 4 -->
-                    <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                        <div class="product-card-static">
-                            <img src="images/product4.png" alt="Gold C, USP Grade Vitamin C" class="img-fluid mb-3">
-                            <h3 class="product-name-static">California Gold Nutrition, Gold C™, USP Grade Vitamin C, 1,000 mg, 60...</h3>
-                            <div class="product-rating-static">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                                <span class="rating-count-static">(352,215)</span>
+                            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                                <div class="product-card-static">
+                                    <img src="images/product4.png" alt="Creatine Monohydrate" class="img-fluid mb-3">
+                                    <h3 class="product-name-static">Optimum Nutrition, Micronized Creatine Monohydrate Powder, 600 g</h3>
+                                    <div class="product-rating-static">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <span class="rating-count-static">(89,432)</span>
+                                    </div>
+                                    <p class="product-price-static">EGP789.12</p>
+                                </div>
                             </div>
-                            <p class="product-price-static">EGP296.12</p>
-                        </div>
-                    </div>
-                    <!-- Product 5 -->
-                    <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                        <div class="product-card-static">
-                            <img src="images/product5.png" alt="BioActive Complete B-Complex" class="img-fluid mb-3">
-                            <h3 class="product-name-static">Life Extension, BioActive Complete B-Complex, 60 Vegetarian Capsules</h3>
-                            <div class="product-rating-static">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                                <span class="rating-count-static">(91,259)</span>
+                            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                                <div class="product-card-static">
+                                    <img src="images/product5.png" alt="BCAA Powder" class="img-fluid mb-3">
+                                    <h3 class="product-name-static">Scivation, Xtend, BCAAs, Blue Raspberry Ice, 1.2 lbs</h3>
+                                    <div class="product-rating-static">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <span class="rating-count-static">(67,543)</span>
+                                    </div>
+                                    <p class="product-price-static">EGP1,234.56</p>
+                                </div>
                             </div>
-                            <p class="product-price-static">EGP564.62</p>
-                        </div>
-                    </div>
-                    <!-- Product 6 -->
-                    <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
-                        <div class="product-card-static">
-                            <img src="images/product6.png" alt="Hydrolyzed Marine Collagen" class="img-fluid mb-3">
-                            <h3 class="product-name-static">California Gold Nutrition, CollagenUP®, Hydrolyzed Marine Collagen Peptides</h3>
-                            <div class="product-rating-static">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                                <span class="rating-count-static">(271,639)</span>
+                            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                                <div class="product-card-static">
+                                    <img src="images/product6.png" alt="Pre-Workout" class="img-fluid mb-3">
+                                    <h3 class="product-name-static">Cellucor, C4 Original Explosive, Pre-Workout, Fruit Punch, 390 g</h3>
+                                    <div class="product-rating-static">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <span class="rating-count-static">(45,678)</span>
+                                    </div>
+                                    <p class="product-price-static">EGP1,567.89</p>
+                                </div>
                             </div>
-                            <p class="product-price-static">EGP1,011.65</p>
+                            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                                <div class="product-card-static">
+                                    <img src="images/product7.jpg" alt="L-Glutamine" class="img-fluid mb-3">
+                                    <h3 class="product-name-static">NOW Foods, L-Glutamine Powder, 1 lb (454 g)</h3>
+                                    <div class="product-rating-static">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <span class="rating-count-static">(34,567)</span>
+                                    </div>
+                                    <p class="product-price-static">EGP678.90</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+                                <div class="product-card-static">
+                                    <img src="images/product8.png" alt="Protein Bars" class="img-fluid mb-3">
+                                    <h3 class="product-name-static">Quest Nutrition, Protein Bar, Chocolate Chip Cookie Dough, 12 Bars</h3>
+                                    <div class="product-rating-static">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <span class="rating-count-static">(78,901)</span>
+                                    </div>
+                                    <p class="product-price-static">EGP1,890.12</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
 
         <div class="container my-5">
             <div class="d-flex justify-content-between align-items-center mb-4">
@@ -1252,7 +1180,6 @@
             </div>
         
             <div class="row">
-                <!-- Product 1 -->
                 <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
                     <div class="product-card">
                         <img src="images/product1.png" alt="Product 1" class="img-fluid">
@@ -1265,7 +1192,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Product 2 -->
                 <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
                     <div class="product-card">
                         <img src="images/product2.png" alt="Product 2" class="img-fluid">
@@ -1278,7 +1204,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Product 3 -->
                 <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
                     <div class="product-card">
                         <img src="images/product3.jpg" alt="Product 3" class="img-fluid">
@@ -1291,7 +1216,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Product 4 -->
                 <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
                     <div class="product-card">
                         <img src="images/product4.png" alt="Product 4" class="img-fluid">
@@ -1304,7 +1228,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Product 5 -->
                 <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
                     <div class="product-card">
                         <img src="images/product5.png" alt="Product 5" class="img-fluid">
@@ -1317,7 +1240,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Product 6 -->
                 <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
                     <div class="product-card">
                         <img src="images/product6.png" alt="Product 6" class="img-fluid">
@@ -1332,53 +1254,43 @@
                 </div>
             </div>
         </div>
-        
-        
-        
-        
-        
-        
-        
-        
+
         <!-- Why iHerb Section -->
-        <div class="container text-center my-5" id="why-iherb">
+        <section class="why-iherb-section py-5">
+          <div class="container text-center" id="why-iherb">
             <h2 class="mb-5">Why iHerb?</h2>
             <div class="row">
                 <div class="col-md-3 col-sm-6 mb-4">
                     <div class="feature-item">
-                        <i class="bi bi-patch-check feature-icon"></i>
+                        <img src="images/why/baf74a3c708f8985d30299bc6eb264329cd22e1a.png" alt="24/7 customer service" class="feature-icon" width="56" height="56" style="object-fit:contain; background:#fff; border-radius:50%;" />
                         <h5 class="feature-title">50,000+ Authentic products</h5>
                         <p class="feature-text">Directly sourced products from authorized distributors.</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-4">
                     <div class="feature-item">
-                        <i class="bi bi-house feature-icon"></i>
+                        <img src="images/why/0fd03f3cb56973af14258a7097b907cf613781fd.png" alt="Authentic products" class="feature-icon" width="56" height="56" style="object-fit:contain; background:#fff; border-radius:50%;" />
                         <h5 class="feature-title">Freshness guaranteed</h5>
                         <p class="feature-text">Temperature-controlled facilities to ensure quality.</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-4">
                     <div class="feature-item">
-                        <i class="bi bi-chat-dots feature-icon"></i>
+                        <img src="images/why/cad7c574d28c44ff23aacac889c3ae0eb24a94ec.png" alt="Genuine reviews" class="feature-icon" width="56" height="56" style="object-fit:contain; background:#fff; border-radius:50%;" />
                         <h5 class="feature-title">24/7 customer service</h5>
                         <p class="feature-text">Customer service is a click away.</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-4">
                     <div class="feature-item">
-                        <i class="bi bi-star feature-icon"></i>
+                        <img src="images/why/1ce770b3f0a7da7e874b930db0e7901b3ce8d228.png" alt="Freshness guaranteed" class="feature-icon" width="56" height="56" style="object-fit:contain; background:#fff; border-radius:50%;" />
                         <h5 class="feature-title">Genuine reviews</h5>
                         <p class="feature-text">Verified customer reviews help you make smarter buying choices.</p>
                     </div>
                 </div>
             </div>
         </div>
-        
-        
-        <!-- // ... existing code ... -->
-
-
+        </section>
 
         <section class="py-5 live-section">
             <div class="container">
@@ -1469,6 +1381,47 @@
                             <p class="live-product-price">EGP1,280.05</p>
                             <p class="live-product-origin">Japan</p>
                         </div>
+                        <!-- Additional live products for better scrolling -->
+                        <div class="live-product-card">
+                            <img src="images/last1.png" alt="NOW Foods, Vitamin B-12">
+                            <p class="live-product-name">NOW Foods, Vitamin B-12, 2,000 mcg, 100 Lozenges</p>
+                            <div class="live-product-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <span>15,432</span>
+                            </div>
+                            <p class="live-product-price">EGP456.78</p>
+                            <p class="live-product-origin">United States</p>
+                        </div>
+                        <div class="live-product-card">
+                            <img src="images/last2.png" alt="Solgar, Folate">
+                            <p class="live-product-name">Solgar, Folate, 800 mcg, 100 Tablets</p>
+                            <div class="live-product-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                <span>8,765</span>
+                            </div>
+                            <p class="live-product-price">EGP345.67</p>
+                            <p class="live-product-origin">United States</p>
+                        </div>
+                        <div class="live-product-card">
+                            <img src="images/last3.png" alt="Country Life, Biotin">
+                            <p class="live-product-name">Country Life, Biotin, 5 mg, 60 Vegan Capsules</p>
+                            <div class="live-product-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                <span>12,345</span>
+                            </div>
+                            <p class="live-product-price">EGP234.56</p>
+                            <p class="live-product-origin">United States</p>
+                        </div>
+                        <div class="live-product-card">
+                            <img src="images/last4.png" alt="Thorne, Vitamin K2">
+                            <p class="live-product-name">Thorne, Vitamin K2, 1 mg, 30 Capsules</p>
+                            <div class="live-product-rating">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                <span>6,789</span>
+                            </div>
+                            <p class="live-product-price">EGP567.89</p>
+                            <p class="live-product-origin">United States</p>
+                        </div>
                     </div>
                     <button id="btn-right" class="live-slider-arrow live-slider-arrow--next"><i class="fas fa-chevron-right"></i></button>
                 </div>
@@ -1509,16 +1462,23 @@
             </div>
         </section>
 
-
     </main>
+
+<div id="cart-notification" class="cart-notification">
+  Item added to cart!
+</div>
+
+
     <footer>
         <div class="footer-container">
-            <div class="footer-top-bar">
-                <div class="container">
-                    <span class="footer-logo">iHerb <b>REWARDS</b></span>
-                    <span class="footer-offer">Get free products, insider access, and exclusive offers!</span>
-                </div>
-            </div>
+            <div class="footer-top-bar promo-bar">
+  <div class="promo-container">
+    <span class="promo-iherb">iHerb<span class="promo-r">&reg;</span></span>
+    <span class="promo-divider">|</span>
+    <span class="promo-rewards">REWARDS</span>
+    <span class="promo-offer">Get free products, insider access, and exclusive offers!</span>
+  </div>
+</div>
             <div class="footer-main">
                 <div class="container">
                     <div class="footer-links">
@@ -1559,19 +1519,21 @@
                             </ul>
                         </div>
                         <div class="footer-apps">
-                            <h4>MOBILE APPS</h4>
-                            <img src="images/QR.png" alt="QR Code" class="footer-qr">
-                            <div class="footer-app-buttons">
-                                <a href="#" aria-label="Get it on Google Play" target="_blank" rel="noopener noreferrer">
-                                    <img src="images/android.png" alt="Google Play" class="footer-app-icon">
-                                </a>
-                                <a href="#" aria-label="Download on the App Store" target="_blank" rel="noopener noreferrer">
-                                    <img src="images/apple (1).png" alt="App Store" class="footer-app-icon">
-                                </a>
-                            </div>
-                        </div>
+    <h4>MOBILE APPS</h4>
+    <div class="footer-apps-flex">
+        <img src="images/QR.png" alt="QR Code" class="footer-qr">
+        <div class="footer-app-buttons">
+            <a href="#" aria-label="Get it on Google Play" target="_blank" rel="noopener noreferrer">
+                <img src="images/android.png" alt="Google Play" class="footer-app-icon">
+            </a>
+            <a href="#" aria-label="Download on the App Store" target="_blank" rel="noopener noreferrer">
+                <img src="images/apple (1).png" alt="App Store" class="footer-app-icon">
+            </a>
+        </div>
+    </div>
+</div>
                     </div>
-                    <hr>
+                    
                     <div class="footer-newsletter">
                         <span>BE THE FIRST TO GET PROMO OFFERS AND REWARD PERKS STRAIGHT TO YOUR INBOX</span>
                         <form>
@@ -1612,8 +1574,24 @@
 
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.add-to-cart').forEach(function(btn) {
+    btn.addEventListener('click', function(e) {
+      showCartNotification();
+    });
+  });
+  function showCartNotification() {
+    var notif = document.getElementById('cart-notification');
+    if (!notif) return;
+    notif.classList.add('show');
+    setTimeout(function() {
+      notif.classList.remove('show');
+    }, 3000);
+  }
+});
+</script>
 </body>
 </html>
